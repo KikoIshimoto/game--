@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enemy0</key>
+	<dict>
+		<key>EnemyName</key>
+		<string>スライム</string>
+		<key>EnemyID</key>
+		<integer>0</integer>
+		<key>HP</key>
+		<integer>50</integer>
+		<key>Power</key>
+		<integer>20</integer>
+		<key>Diffence</key>
+		<integer>0</integer>
+		<key>Equipments</key>
+		<array>
+			<integer>1</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+		</array>
+	</dict>
+</dict>
+</plist>

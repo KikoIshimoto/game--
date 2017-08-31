@@ -7,15 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0795BB1CAD381700223B09 /* Skills.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E0795BA1CAD381700223B09 /* Skills.plist */; };
+		1E0795BD1CAD41A800223B09 /* EnemyWave.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E0795BC1CAD41A800223B09 /* EnemyWave.plist */; };
+		1E0BC92A1CAD6323000DF50C /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0BC9291CAD6323000DF50C /* FileManager.swift */; };
+		1E141CFA1CAD012400CB06A4 /* EnemyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E141CF91CAD012400CB06A4 /* EnemyController.swift */; };
+		1E15C7941C90C8FE003FF679 /* MenuScean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15C7931C90C8FE003FF679 /* MenuScean.swift */; };
+		1E15C7A01C9105E9003FF679 /* button1P.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E15C79F1C9105E9003FF679 /* button1P.gif */; };
+		1E15C7A21C9105FB003FF679 /* button1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E15C7A11C9105FB003FF679 /* button1.gif */; };
+		1E2D06F61CAE439700B3402E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D06F51CAE439700B3402E /* SwiftyJSON.swift */; };
+		1E2D06F81CAE44FF00B3402E /* untitled.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D06F71CAE44FF00B3402E /* untitled.json */; };
+		1E2D06FE1CAE54B900B3402E /* dungyon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D06FD1CAE54B900B3402E /* dungyon.png */; };
+		1E2D07001CAE915300B3402E /* TileTestScean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D06FF1CAE915300B3402E /* TileTestScean.swift */; };
+		1E3D8BBE1CAB2FB600FE543A /* EnemyMoveClases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D8BBD1CAB2FB600FE543A /* EnemyMoveClases.swift */; };
+		1E3EA37E1CB37642000CCB47 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3EA37D1CB37642000CCB47 /* Clear.png */; };
+		1E3EA3801CB38817000CCB47 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E3EA37F1CB38817000CCB47 /* GameOver.png */; };
+		1E4219781C996C0D00528B0E /* BackButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E4219771C996C0D00528B0E /* BackButton.gif */; };
+		1E42197E1C996CEC00528B0E /* BackButtonP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E42197D1C996CEC00528B0E /* BackButtonP.gif */; };
+		1E6710D31CA01FC000B53B59 /* OKButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E6710D21CA01FC000B53B59 /* OKButton.gif */; };
+		1E6710D51CA01FC900B53B59 /* OKButtonP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1E6710D41CA01FC900B53B59 /* OKButtonP.gif */; };
+		1E719A141C9267F600CAC126 /* ButtonClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E719A131C9267F600CAC126 /* ButtonClasses.swift */; };
+		1E719A161C92691C00CAC126 /* damageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E719A151C92691C00CAC126 /* damageDisplay.swift */; };
+		1E719A181C92901E00CAC126 /* SKScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E719A171C92901E00CAC126 /* SKScroll.swift */; };
+		1E7592451C9BA1640003F8B6 /* teamSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7592441C9BA1640003F8B6 /* teamSetting.swift */; };
+		1E90C8A01C88450100ACD146 /* ParameterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90C89F1C88450100ACD146 /* ParameterBar.swift */; };
+		1E9373B11C4880B7002C0E76 /* NPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9373B01C4880B7002C0E76 /* NPC.swift */; };
+		1E9724211C9E39BD00E3B0C6 /* ParamaterKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9724201C9E39BD00E3B0C6 /* ParamaterKey.swift */; };
+		1E9B62241CA6813900238698 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B62231CA6813900238698 /* Weapons.swift */; };
+		1E9B62261CA681BD00238698 /* WeaponController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9B62251CA681BD00238698 /* WeaponController.swift */; };
+		1E9F7A0D1CA0EC470070BA7F /* CharactorSettingScean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F7A0C1CA0EC470070BA7F /* CharactorSettingScean.swift */; };
+		1EA492ED1CB221FC0009879D /* EnemyGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EA492EC1CB221FC0009879D /* EnemyGroup.plist */; };
+		1EAAF1C01CA24E4300EC263B /* DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAAF1BF1CA24E4300EC263B /* DOWN.png */; };
+		1EAAF1C21CA24E4C00EC263B /* UP.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAAF1C11CA24E4C00EC263B /* UP.png */; };
+		1EAAF1C41CA24E9700EC263B /* DROW.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAAF1C31CA24E9700EC263B /* DROW.png */; };
+		1EB1B9BB1C62FB4100476815 /* RigthBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EB1B9B91C62FB4100476815 /* RigthBall.png */; };
+		1EBEB7BB1CAA30020099AD70 /* WeaponSkillClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBEB7BA1CAA30020099AD70 /* WeaponSkillClasses.swift */; };
+		1EC865BC1CA56D44004C0516 /* StringMyself.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC865BB1CA56D44004C0516 /* StringMyself.swift */; };
 		1ECEE4CD1C43418B00812A93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4CC1C43418B00812A93 /* AppDelegate.swift */; };
-		1ECEE4CF1C43418B00812A93 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEE4CE1C43418B00812A93 /* GameScene.sks */; };
-		1ECEE4D11C43418B00812A93 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D01C43418B00812A93 /* GameScene.swift */; };
+		1ECEE4D11C43418B00812A93 /* BattleScean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D01C43418B00812A93 /* BattleScean.swift */; };
 		1ECEE4D31C43418B00812A93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D21C43418B00812A93 /* GameViewController.swift */; };
 		1ECEE4D61C43418B00812A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D41C43418B00812A93 /* Main.storyboard */; };
 		1ECEE4D81C43418B00812A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D71C43418B00812A93 /* Assets.xcassets */; };
 		1ECEE4DB1C43418B00812A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEE4D91C43418B00812A93 /* LaunchScreen.storyboard */; };
 		1ECEE4E61C43418B00812A93 /* gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4E51C43418B00812A93 /* gameTests.swift */; };
 		1ECEE4F11C43418B00812A93 /* gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEE4F01C43418B00812A93 /* gameUITests.swift */; };
+		1ECFB0B81CAB43B700AF3783 /* Enemys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ECFB0B71CAB43B700AF3783 /* Enemys.plist */; };
+		1ED05E901CA159DA0047A0E7 /* Player.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED05E8F1CA159DA0047A0E7 /* Player.plist */; };
+		1ED2CF831C9FC04F005E8704 /* charon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2CF821C9FC04F005E8704 /* charon.png */; };
+		1ED2CF851C9FC0AD005E8704 /* charaFrame.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2CF841C9FC0AD005E8704 /* charaFrame.gif */; };
+		1ED2CF871C9FC95A005E8704 /* CharaSamNail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2CF861C9FC95A005E8704 /* CharaSamNail.gif */; };
+		1ED2CF891C9FCD5A005E8704 /* CharaSamNailP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2CF881C9FCD5A005E8704 /* CharaSamNailP.gif */; };
+		1ED2CF8B1C9FDB19005E8704 /* teamSettingTitle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2CF8A1C9FDB19005E8704 /* teamSettingTitle.gif */; };
+		1EDA14E41CA4F7C60076968A /* Weapons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EDA14E31CA4F7C60076968A /* Weapons.plist */; };
+		1EE6A2E61C9915640061C742 /* backGroundMenu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6A2E51C9915640061C742 /* backGroundMenu.jpeg */; };
+		1EEAE8761C8FE0E70085B499 /* WaveSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEAE8751C8FE0E70085B499 /* WaveSetup.swift */; };
+		1EECC7B41C968846007BAE52 /* menuButtonClases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EECC7B31C968846007BAE52 /* menuButtonClases.swift */; };
+		1EFE877E1CA10633009103D1 /* CharactorSettingUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE877D1CA10633009103D1 /* CharactorSettingUp.gif */; };
+		1EFE87801CA10833009103D1 /* f00132.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE877F1CA10833009103D1 /* f00132.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +83,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E0795BA1CAD381700223B09 /* Skills.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Skills.plist; sourceTree = "<group>"; };
+		1E0795BC1CAD41A800223B09 /* EnemyWave.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnemyWave.plist; sourceTree = "<group>"; };
+		1E0BC9291CAD6323000DF50C /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		1E141CF91CAD012400CB06A4 /* EnemyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyController.swift; sourceTree = "<group>"; };
+		1E15C7931C90C8FE003FF679 /* MenuScean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScean.swift; sourceTree = "<group>"; };
+		1E15C79F1C9105E9003FF679 /* button1P.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button1P.gif; sourceTree = "<group>"; };
+		1E15C7A11C9105FB003FF679 /* button1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button1.gif; sourceTree = "<group>"; };
+		1E15C7A31C910BB0003FF679 /* font_1_kokumr_1.00_rls.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_1_kokumr_1.00_rls.ttf; sourceTree = "<group>"; };
+		1E2D06F51CAE439700B3402E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1E2D06F71CAE44FF00B3402E /* untitled.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = untitled.json; sourceTree = "<group>"; };
+		1E2D06F91CAE501400B3402E /* game-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "game-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E2D06FD1CAE54B900B3402E /* dungyon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dungyon.png; sourceTree = "<group>"; };
+		1E2D06FF1CAE915300B3402E /* TileTestScean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTestScean.swift; sourceTree = "<group>"; };
+		1E3D8BBD1CAB2FB600FE543A /* EnemyMoveClases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyMoveClases.swift; sourceTree = "<group>"; };
+		1E3EA37D1CB37642000CCB47 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		1E3EA37F1CB38817000CCB47 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
+		1E4219771C996C0D00528B0E /* BackButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BackButton.gif; sourceTree = "<group>"; };
+		1E42197D1C996CEC00528B0E /* BackButtonP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BackButtonP.gif; sourceTree = "<group>"; };
+		1E6710D21CA01FC000B53B59 /* OKButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OKButton.gif; sourceTree = "<group>"; };
+		1E6710D41CA01FC900B53B59 /* OKButtonP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OKButtonP.gif; sourceTree = "<group>"; };
+		1E719A131C9267F600CAC126 /* ButtonClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonClasses.swift; sourceTree = "<group>"; };
+		1E719A151C92691C00CAC126 /* damageDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = damageDisplay.swift; sourceTree = "<group>"; };
+		1E719A171C92901E00CAC126 /* SKScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKScroll.swift; sourceTree = "<group>"; };
+		1E7592441C9BA1640003F8B6 /* teamSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teamSetting.swift; sourceTree = "<group>"; };
+		1E7608561C8BE6BB0031E86C /* Qarmic_sans_Abridged.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Qarmic_sans_Abridged.ttf; sourceTree = "<group>"; };
+		1E90C89F1C88450100ACD146 /* ParameterBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterBar.swift; sourceTree = "<group>"; };
+		1E9373B01C4880B7002C0E76 /* NPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPC.swift; sourceTree = "<group>"; };
+		1E9724201C9E39BD00E3B0C6 /* ParamaterKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamaterKey.swift; sourceTree = "<group>"; };
+		1E9B62231CA6813900238698 /* Weapons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapons.swift; sourceTree = "<group>"; };
+		1E9B62251CA681BD00238698 /* WeaponController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponController.swift; sourceTree = "<group>"; };
+		1E9F7A0C1CA0EC470070BA7F /* CharactorSettingScean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactorSettingScean.swift; sourceTree = "<group>"; };
+		1EA492EC1CB221FC0009879D /* EnemyGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnemyGroup.plist; sourceTree = "<group>"; };
+		1EAAF1BF1CA24E4300EC263B /* DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DOWN.png; sourceTree = "<group>"; };
+		1EAAF1C11CA24E4C00EC263B /* UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UP.png; sourceTree = "<group>"; };
+		1EAAF1C31CA24E9700EC263B /* DROW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DROW.png; sourceTree = "<group>"; };
+		1EB1B9B91C62FB4100476815 /* RigthBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RigthBall.png; sourceTree = "<group>"; };
+		1EBEB7BA1CAA30020099AD70 /* WeaponSkillClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponSkillClasses.swift; sourceTree = "<group>"; };
+		1EC865BB1CA56D44004C0516 /* StringMyself.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMyself.swift; sourceTree = "<group>"; };
 		1ECEE4C91C43418B00812A93 /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECEE4CC1C43418B00812A93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ECEE4CE1C43418B00812A93 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1ECEE4D01C43418B00812A93 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1ECEE4D01C43418B00812A93 /* BattleScean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleScean.swift; sourceTree = "<group>"; };
 		1ECEE4D21C43418B00812A93 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1ECEE4D51C43418B00812A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ECEE4D71C43418B00812A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +135,20 @@
 		1ECEE4EC1C43418B00812A93 /* gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECEE4F01C43418B00812A93 /* gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameUITests.swift; sourceTree = "<group>"; };
 		1ECEE4F21C43418B00812A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECFB0B71CAB43B700AF3783 /* Enemys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Enemys.plist; sourceTree = "<group>"; };
+		1ED05E8F1CA159DA0047A0E7 /* Player.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Player.plist; sourceTree = "<group>"; };
+		1ED05E911CA176BE0047A0E7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		1ED2CF821C9FC04F005E8704 /* charon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charon.png; sourceTree = "<group>"; };
+		1ED2CF841C9FC0AD005E8704 /* charaFrame.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = charaFrame.gif; sourceTree = "<group>"; };
+		1ED2CF861C9FC95A005E8704 /* CharaSamNail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CharaSamNail.gif; sourceTree = "<group>"; };
+		1ED2CF881C9FCD5A005E8704 /* CharaSamNailP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CharaSamNailP.gif; sourceTree = "<group>"; };
+		1ED2CF8A1C9FDB19005E8704 /* teamSettingTitle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = teamSettingTitle.gif; sourceTree = "<group>"; };
+		1EDA14E31CA4F7C60076968A /* Weapons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Weapons.plist; sourceTree = "<group>"; };
+		1EE6A2E51C9915640061C742 /* backGroundMenu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGroundMenu.jpeg; sourceTree = "<group>"; };
+		1EEAE8751C8FE0E70085B499 /* WaveSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveSetup.swift; sourceTree = "<group>"; };
+		1EECC7B31C968846007BAE52 /* menuButtonClases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuButtonClases.swift; sourceTree = "<group>"; };
+		1EFE877D1CA10633009103D1 /* CharactorSettingUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CharactorSettingUp.gif; sourceTree = "<group>"; };
+		1EFE877F1CA10833009103D1 /* f00132.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f00132.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +176,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E15C7921C90C899003FF679 /* Sceans */ = {
+			isa = PBXGroup;
+			children = (
+				1E15C79B1C90D0F2003FF679 /* BattleScean */,
+				1E15C79C1C90D107003FF679 /* MenuScean */,
+			);
+			name = Sceans;
+			sourceTree = "<group>";
+		};
+		1E15C79B1C90D0F2003FF679 /* BattleScean */ = {
+			isa = PBXGroup;
+			children = (
+				1E3D8BBF1CAB2FC500FE543A /* WeaponClasses */,
+				1E3D8BBC1CAB2F9800FE543A /* EnemySubClasses */,
+				1EEAE8741C8FB28F0085B499 /* TOOL */,
+				1ECEE4D01C43418B00812A93 /* BattleScean.swift */,
+			);
+			name = BattleScean;
+			sourceTree = "<group>";
+		};
+		1E15C79C1C90D107003FF679 /* MenuScean */ = {
+			isa = PBXGroup;
+			children = (
+				1E15C7931C90C8FE003FF679 /* MenuScean.swift */,
+				1E7592431C9BA13C0003F8B6 /* teamSetting */,
+				1EECC7B31C968846007BAE52 /* menuButtonClases.swift */,
+			);
+			name = MenuScean;
+			sourceTree = "<group>";
+		};
+		1E3D8BBC1CAB2F9800FE543A /* EnemySubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1E3D8BBD1CAB2FB600FE543A /* EnemyMoveClases.swift */,
+				1E141CF91CAD012400CB06A4 /* EnemyController.swift */,
+				1EEAE8751C8FE0E70085B499 /* WaveSetup.swift */,
+			);
+			name = EnemySubClasses;
+			sourceTree = "<group>";
+		};
+		1E3D8BBF1CAB2FC500FE543A /* WeaponClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1E9B62251CA681BD00238698 /* WeaponController.swift */,
+				1E9B62231CA6813900238698 /* Weapons.swift */,
+				1EBEB7BA1CAA30020099AD70 /* WeaponSkillClasses.swift */,
+			);
+			name = WeaponClasses;
+			sourceTree = "<group>";
+		};
+		1E719A121C9267D700CAC126 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1E719A131C9267F600CAC126 /* ButtonClasses.swift */,
+				1E6710D21CA01FC000B53B59 /* OKButton.gif */,
+				1E6710D41CA01FC900B53B59 /* OKButtonP.gif */,
+				1ED2CF861C9FC95A005E8704 /* CharaSamNail.gif */,
+				1ED2CF881C9FCD5A005E8704 /* CharaSamNailP.gif */,
+				1ED2CF841C9FC0AD005E8704 /* charaFrame.gif */,
+				1E15C7A11C9105FB003FF679 /* button1.gif */,
+				1E15C79F1C9105E9003FF679 /* button1P.gif */,
+				1E4219771C996C0D00528B0E /* BackButton.gif */,
+				1E42197D1C996CEC00528B0E /* BackButtonP.gif */,
+				1EE6A2E51C9915640061C742 /* backGroundMenu.jpeg */,
+			);
+			name = Button;
+			path = game;
+			sourceTree = "<group>";
+		};
+		1E7592431C9BA13C0003F8B6 /* teamSetting */ = {
+			isa = PBXGroup;
+			children = (
+				1E7592441C9BA1640003F8B6 /* teamSetting.swift */,
+				1ED2CF8A1C9FDB19005E8704 /* teamSettingTitle.gif */,
+				1E9F7A0C1CA0EC470070BA7F /* CharactorSettingScean.swift */,
+				1EFE877D1CA10633009103D1 /* CharactorSettingUp.gif */,
+				1EFE877F1CA10833009103D1 /* f00132.png */,
+			);
+			name = teamSetting;
+			sourceTree = "<group>";
+		};
 		1ECEE4C01C43418B00812A93 = {
 			isa = PBXGroup;
 			children = (
+				1ED05E8F1CA159DA0047A0E7 /* Player.plist */,
+				1EB1B9B91C62FB4100476815 /* RigthBall.png */,
+				1EDA14E31CA4F7C60076968A /* Weapons.plist */,
+				1ECFB0B71CAB43B700AF3783 /* Enemys.plist */,
+				1E0795BC1CAD41A800223B09 /* EnemyWave.plist */,
+				1EA492EC1CB221FC0009879D /* EnemyGroup.plist */,
+				1E0795BA1CAD381700223B09 /* Skills.plist */,
+				1EAAF1BF1CA24E4300EC263B /* DOWN.png */,
+				1EAAF1C11CA24E4C00EC263B /* UP.png */,
+				1EAAF1C31CA24E9700EC263B /* DROW.png */,
+				1E2D06F71CAE44FF00B3402E /* untitled.json */,
+				1E2D06FD1CAE54B900B3402E /* dungyon.png */,
+				1E2D06FF1CAE915300B3402E /* TileTestScean.swift */,
+				1E3EA37D1CB37642000CCB47 /* Clear.png */,
+				1E3EA37F1CB38817000CCB47 /* GameOver.png */,
+				1ED05E911CA176BE0047A0E7 /* MyPlayground.playground */,
 				1ECEE4CB1C43418B00812A93 /* game */,
 				1ECEE4E41C43418B00812A93 /* gameTests */,
-				1ECEE4EF1C43418B00812A93 /* gameUITests */,
 				1ECEE4CA1C43418B00812A93 /* Products */,
+				1ECEE4EF1C43418B00812A93 /* gameUITests */,
+				1E7608561C8BE6BB0031E86C /* Qarmic_sans_Abridged.ttf */,
+				1E719A121C9267D700CAC126 /* Button */,
+				1ED2CF811C9FC006005E8704 /* Charactor */,
+				1E15C7A31C910BB0003FF679 /* font_1_kokumr_1.00_rls.ttf */,
+				1E2D06F91CAE501400B3402E /* game-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +301,17 @@
 		1ECEE4CB1C43418B00812A93 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				1ECEE4CC1C43418B00812A93 /* AppDelegate.swift */,
-				1ECEE4CE1C43418B00812A93 /* GameScene.sks */,
-				1ECEE4D01C43418B00812A93 /* GameScene.swift */,
+				1E15C7921C90C899003FF679 /* Sceans */,
 				1ECEE4D21C43418B00812A93 /* GameViewController.swift */,
+				1E2D06F51CAE439700B3402E /* SwiftyJSON.swift */,
+				1ECEE4CC1C43418B00812A93 /* AppDelegate.swift */,
+				1E0BC9291CAD6323000DF50C /* FileManager.swift */,
 				1ECEE4D41C43418B00812A93 /* Main.storyboard */,
 				1ECEE4D71C43418B00812A93 /* Assets.xcassets */,
 				1ECEE4D91C43418B00812A93 /* LaunchScreen.storyboard */,
 				1ECEE4DC1C43418B00812A93 /* Info.plist */,
+				1E719A171C92901E00CAC126 /* SKScroll.swift */,
+				1EC865BB1CA56D44004C0516 /* StringMyself.swift */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -129,6 +332,25 @@
 				1ECEE4F21C43418B00812A93 /* Info.plist */,
 			);
 			path = gameUITests;
+			sourceTree = "<group>";
+		};
+		1ED2CF811C9FC006005E8704 /* Charactor */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2CF821C9FC04F005E8704 /* charon.png */,
+			);
+			name = Charactor;
+			sourceTree = "<group>";
+		};
+		1EEAE8741C8FB28F0085B499 /* TOOL */ = {
+			isa = PBXGroup;
+			children = (
+				1E9373B01C4880B7002C0E76 /* NPC.swift */,
+				1E719A151C92691C00CAC126 /* damageDisplay.swift */,
+				1E90C89F1C88450100ACD146 /* ParameterBar.swift */,
+				1E9724201C9E39BD00E3B0C6 /* ParamaterKey.swift */,
+			);
+			name = TOOL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,22 +415,25 @@
 		1ECEE4C11C43418B00812A93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = IshimotoKiko;
 				TargetAttributes = {
 					1ECEE4C81C43418B00812A93 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 2NP887SMLE;
+						LastSwiftMigration = 0830;
 					};
 					1ECEE4E01C43418B00812A93 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 2NP887SMLE;
+						LastSwiftMigration = 0830;
 						TestTargetID = 1ECEE4C81C43418B00812A93;
 					};
 					1ECEE4EB1C43418B00812A93 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 2NP887SMLE;
+						LastSwiftMigration = 0830;
 						TestTargetID = 1ECEE4C81C43418B00812A93;
 					};
 				};
@@ -238,10 +463,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECEE4CF1C43418B00812A93 /* GameScene.sks in Resources */,
+				1ED2CF831C9FC04F005E8704 /* charon.png in Resources */,
+				1E42197E1C996CEC00528B0E /* BackButtonP.gif in Resources */,
+				1E6710D31CA01FC000B53B59 /* OKButton.gif in Resources */,
+				1EFE877E1CA10633009103D1 /* CharactorSettingUp.gif in Resources */,
+				1EB1B9BB1C62FB4100476815 /* RigthBall.png in Resources */,
+				1ED2CF8B1C9FDB19005E8704 /* teamSettingTitle.gif in Resources */,
+				1ECFB0B81CAB43B700AF3783 /* Enemys.plist in Resources */,
 				1ECEE4DB1C43418B00812A93 /* LaunchScreen.storyboard in Resources */,
+				1EE6A2E61C9915640061C742 /* backGroundMenu.jpeg in Resources */,
+				1ED2CF891C9FCD5A005E8704 /* CharaSamNailP.gif in Resources */,
+				1EFE87801CA10833009103D1 /* f00132.png in Resources */,
+				1ED05E901CA159DA0047A0E7 /* Player.plist in Resources */,
+				1EAAF1C01CA24E4300EC263B /* DOWN.png in Resources */,
+				1E15C7A01C9105E9003FF679 /* button1P.gif in Resources */,
+				1E15C7A21C9105FB003FF679 /* button1.gif in Resources */,
+				1E2D06F81CAE44FF00B3402E /* untitled.json in Resources */,
+				1ED2CF851C9FC0AD005E8704 /* charaFrame.gif in Resources */,
+				1E2D06FE1CAE54B900B3402E /* dungyon.png in Resources */,
+				1E4219781C996C0D00528B0E /* BackButton.gif in Resources */,
+				1ED2CF871C9FC95A005E8704 /* CharaSamNail.gif in Resources */,
+				1E6710D51CA01FC900B53B59 /* OKButtonP.gif in Resources */,
+				1E0795BB1CAD381700223B09 /* Skills.plist in Resources */,
 				1ECEE4D81C43418B00812A93 /* Assets.xcassets in Resources */,
+				1EDA14E41CA4F7C60076968A /* Weapons.plist in Resources */,
 				1ECEE4D61C43418B00812A93 /* Main.storyboard in Resources */,
+				1EAAF1C21CA24E4C00EC263B /* UP.png in Resources */,
+				1E3EA3801CB38817000CCB47 /* GameOver.png in Resources */,
+				1E0795BD1CAD41A800223B09 /* EnemyWave.plist in Resources */,
+				1EA492ED1CB221FC0009879D /* EnemyGroup.plist in Resources */,
+				1EAAF1C41CA24E9700EC263B /* DROW.png in Resources */,
+				1E3EA37E1CB37642000CCB47 /* Clear.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +518,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECEE4D11C43418B00812A93 /* GameScene.swift in Sources */,
+				1E719A141C9267F600CAC126 /* ButtonClasses.swift in Sources */,
+				1E9B62261CA681BD00238698 /* WeaponController.swift in Sources */,
+				1E9373B11C4880B7002C0E76 /* NPC.swift in Sources */,
+				1E2D06F61CAE439700B3402E /* SwiftyJSON.swift in Sources */,
+				1E0BC92A1CAD6323000DF50C /* FileManager.swift in Sources */,
+				1E90C8A01C88450100ACD146 /* ParameterBar.swift in Sources */,
+				1E9F7A0D1CA0EC470070BA7F /* CharactorSettingScean.swift in Sources */,
+				1ECEE4D11C43418B00812A93 /* BattleScean.swift in Sources */,
+				1E9B62241CA6813900238698 /* Weapons.swift in Sources */,
 				1ECEE4D31C43418B00812A93 /* GameViewController.swift in Sources */,
+				1E9724211C9E39BD00E3B0C6 /* ParamaterKey.swift in Sources */,
+				1EEAE8761C8FE0E70085B499 /* WaveSetup.swift in Sources */,
+				1E719A181C92901E00CAC126 /* SKScroll.swift in Sources */,
+				1E3D8BBE1CAB2FB600FE543A /* EnemyMoveClases.swift in Sources */,
+				1E141CFA1CAD012400CB06A4 /* EnemyController.swift in Sources */,
 				1ECEE4CD1C43418B00812A93 /* AppDelegate.swift in Sources */,
+				1E15C7941C90C8FE003FF679 /* MenuScean.swift in Sources */,
+				1EBEB7BB1CAA30020099AD70 /* WeaponSkillClasses.swift in Sources */,
+				1E7592451C9BA1640003F8B6 /* teamSetting.swift in Sources */,
+				1EC865BC1CA56D44004C0516 /* StringMyself.swift in Sources */,
+				1E2D07001CAE915300B3402E /* TileTestScean.swift in Sources */,
+				1EECC7B41C968846007BAE52 /* menuButtonClases.swift in Sources */,
+				1E719A161C92691C00CAC126 /* damageDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +682,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "game-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -421,10 +702,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.game;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "game-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -437,6 +726,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.gameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/game.app/game";
 			};
 			name = Debug;
@@ -449,6 +739,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.gameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/game.app/game";
 			};
 			name = Release;
@@ -461,6 +752,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.gameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = game;
 				USES_XCTRUNNER = YES;
 			};
@@ -473,6 +765,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IshimotoKiko.gameUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = game;
 				USES_XCTRUNNER = YES;
 			};
@@ -497,6 +790,7 @@
 				1ECEE4F71C43418B00812A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ECEE4F81C43418B00812A93 /* Build configuration list for PBXNativeTarget "gameTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +799,7 @@
 				1ECEE4FA1C43418B00812A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ECEE4FB1C43418B00812A93 /* Build configuration list for PBXNativeTarget "gameUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +808,7 @@
 				1ECEE4FD1C43418B00812A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

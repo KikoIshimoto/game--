@@ -9,36 +9,37 @@
 import UIKit
 import SpriteKit
 
+struct globalData
+{
+    static var size:CGSize = CGSize(width: 360, height: 640)
+    static var gameSize:CGSize = CGSize(width: 360,height: 640)
+}
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        if let scene = GameScene(fileNamed:"GameScene") {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
-            
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
-            skView.ignoresSiblingOrder = true
-            
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
-            
-            skView.presentScene(scene)
-        }
+        
+        let skView = self.view as? SKView
+        skView?.showsFPS = true
+        skView?.showsNodeCount = true
+        globalData.gameSize = self.view.bounds.size
+        //let scean = test(size: CGSizeMake(360 * 10,640 * 10))
+        let scean = CharactorSettingSelectSean(item: 1)
+        scean.scaleMode = SKSceneScaleMode.aspectFit
+        skView?.presentScene(scean)
+        
     }
 
-    override func shouldAutorotate() -> Bool {
+
+    override var shouldAutorotate : Bool {
         return true
     }
 
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return .AllButUpsideDown
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return .allButUpsideDown
         } else {
-            return .All
+            return .all
         }
     }
 
@@ -47,7 +48,8 @@ class GameViewController: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
 
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }
+    
 }

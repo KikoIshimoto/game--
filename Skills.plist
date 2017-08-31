@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Skill0</key>
+	<dict>
+		<key>Name</key>
+		<string>DamageUp</string>
+		<key>UP</key>
+		<integer>0</integer>
+		<key>Explantry</key>
+		<string>攻撃力</string>
+	</dict>
+	<key>Skill1</key>
+	<dict>
+		<key>Name</key>
+		<string>FireRateUp</string>
+		<key>UP</key>
+		<integer>0</integer>
+		<key>Explantry</key>
+		<string>攻撃速度</string>
+	</dict>
+	<key>Skill2</key>
+	<dict>
+		<key>Name</key>
+		<string>SequenceUp</string>
+		<key>UP</key>
+		<integer>0</integer>
+		<key>Explantry</key>
+		<string>れんぞく</string>
+	</dict>
+	<key>Skill3</key>
+	<dict>
+		<key>Name</key>
+		<string>GroupUp</string>
+		<key>UP</key>
+		<integer>0</integer>
+		<key>Explantry</key>
+		<string>かず</string>
+	</dict>
+</dict>
+</plist>
